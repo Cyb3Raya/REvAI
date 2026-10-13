@@ -2,6 +2,12 @@
 
 **AI-assisted reverse engineering with Ghidra.**
 
+<p align="center">
+<img width="1021" height="604" alt="image" src="https://github.com/user-attachments/assets/376970b9-9abd-45cc-8ebe-8be66dbb7952" />
+</p>
+
+<br>
+
 REvAI decompiles a binary with Ghidra in headless mode, exports every function's pseudo-C to JSON, and then uses an AI model to summarize what each function does, suggest meaningful names, and optionally reconstruct cleaner C code. It works with cloud models (Anthropic Claude, OpenAI) or fully local open-source models (Ollama, LM Studio, vLLM, llama.cpp).
 
 ```
