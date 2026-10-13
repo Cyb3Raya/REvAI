@@ -8,12 +8,19 @@ REvAI decompiles a binary with Ghidra in headless mode, exports every function's
 binary -> Ghidra (headless) -> JSON -> REvAI -> summaries, names, clean C
 ```
 ---
-<img width="1603" height="915" alt="image" src="https://github.com/user-attachments/assets/033f21c1-87c5-4ba8-ad11-a86af6c126f3" />
 
 
+<p align="center">
+ <img width="1603" height="915" alt="image" src="https://github.com/user-attachments/assets/033f21c1-87c5-4ba8-ad11-a86af6c126f3" />
+</p>
 
+<br>
+
+<p align="center">
 <img width="739" height="577" alt="image" src="https://github.com/user-attachments/assets/fac4059d-6382-4c39-8eb3-2f221c0c45d1" />
+</p>
 
+<br>
 
 ## Features
 
