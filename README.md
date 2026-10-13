@@ -5,10 +5,13 @@
 REvAI decompiles a binary with Ghidra in headless mode, exports every function's pseudo-C to JSON, and then uses an AI model to summarize what each function does, suggest meaningful names, and optionally reconstruct cleaner C code. It works with cloud models (Anthropic Claude, OpenAI) or fully local open-source models (Ollama, LM Studio, vLLM, llama.cpp).
 
 ```
-binary ──► Ghidra (headless) ──► functions.json ──► REvAI web app ──► summaries / rename map / clean C
-```
+   binary -> Ghidra (headless) -> JSON -> REvAI -> summaries, names, clean C```
 
 ---
+<img width="1603" height="915" alt="image" src="https://github.com/user-attachments/assets/033f21c1-87c5-4ba8-ad11-a86af6c126f3" />
+
+<img width="739" height="577" alt="image" src="https://github.com/user-attachments/assets/fac4059d-6382-4c39-8eb3-2f221c0c45d1" />
+
 
 ## Features
 
